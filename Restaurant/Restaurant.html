@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCOT RESTAURANT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+    background-color: indigo;
+    background-image: url(images/foodbg2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header{
+    height: 100px;
+    text-align: center;
+}
+
+nav{
+    background-color: rgba(0, 0, 0,0.51);
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    position: sticky;
+    top: 0px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+h1{
+    font-size: 84px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.meat{
+    color: yellow;
+}
+
+.meat:hover{
+    color: aliceblue;
+}
+
+p{
+    font-size: 18px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.video{
+    padding-bottom: 50px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0,0.81);
+    margin-top: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    text-align: center;
+}
+
+img{
+    width: 10%;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+</style>
+<body>
+    <div class="container">
+        <header>
+            <h1>ARCOT RESTAURANT</h1>
+        </header>
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#">MENU</a>
+            <a href="#order">ORDER ONLINE</a>
+            <a href="#">REWARDS</a>
+            <a href="#">CATERING</a>
+            <a href="#">CONTACT</a>
+        </nav>
+        <main id="home">
+            <h1>Step<span class="meat">I</span>n</h1>
+            <p>It's an authentic Indian dish that originated in Muslim centers of Delhi. Biryani is cooked from meat or fish, basmati rice, vegetables, eggs and local spices.
+                Rice is usually made separately from the thick sauce. The name of the dish means "fried" or "roasted" in Persian. <a href="https://www.google.com" target="_blank">GOOGLE HERE</a> </p>
+            <a id="order" href="mailto:shyampg@gmail.com?Subject=Reservation at your restaurant" target="_blank">PLACE ORDER!!</a>
+        </main>
+        <section class="video"> 
+            <iframe width="1024" height="640" src="https://www.youtube.com/embed/FDFghcRCOiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <footer>
+            <p>45,East car street,Chennai </p>
+        </footer>
+    </div>
+    
+</body>
+</html>
